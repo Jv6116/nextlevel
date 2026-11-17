@@ -13,7 +13,10 @@
     <fieldset>
         <!-- Dados Pessoais -->
         <legend>Dados pessoais</legend>
-            <label for="userName">Nome</label>
+        
+        <form action="" method="get"></form>
+           
+        <label for="userName">Nome</label>
             <input type="text" name="userName" required>
             <br>
             <label for="userAge">Idade</label>
@@ -47,9 +50,20 @@
 
      <input type="radio" name="userGender" value="notInformed">
     <label for="userGender">Prefiro não informar</label>
-   </fieldset>
+    <br>
+
+    <label for="maritalStatus">Estado civil</label>
+    <select name="maritalStatus">
+        <option value="notInformed">Selecione...</option>
+        <option value="casado">Casado</option>
+        <option value="solteiro">Solteiro</option>
+        <option value="divorciado">Divorciado</option>
+        <option value="uniaoEstavel">União estável</option>
+    </select>
+   
+
+</fieldset>
     <section>
-        <form action="" method="get">
 
 
             <button type="submit">enviar</button>
